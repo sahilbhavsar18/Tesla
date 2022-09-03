@@ -75,7 +75,9 @@ a{
    font-size: 40px;
 }
 .content button{
-   margin-top: 450px;
+   position: relative;
+   bottom: 300px;
+   /*margin-top: 450px;*/
    border: none;
    border-radius: 2px;
    padding: 10px;
@@ -96,7 +98,7 @@ a{
 a{
    cursor: pointer;
 }
-@media screen and (max-width:600px) and (min-width:400px){
+@media screen and (max-width:400px){
    .myul{
       display: none;
    }

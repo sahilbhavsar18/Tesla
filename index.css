@@ -1,0 +1,138 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+html{
+   scroll-behavior: smooth;
+}
+.container{
+   height: 100vh;
+   background-image: url("model-3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+}
+.header{
+   height: 80px;
+   top: 0px;
+   position: fixed;
+}
+.logo{
+   line-height: 50px;
+   margin-left: 40px;
+}
+.myul{
+   height: 25px;
+   line-height: 50px;
+   display: inline;
+   padding-left: 400px;
+}
+.myul .menu{
+   position: relative;
+   left: 1400px;
+   bottom: 50px;
+   font-family: 'M PLUS 1', sans-serif;
+   cursor: pointer;
+}
+.myul li{
+   font-family: 'M PLUS 1', sans-serif;
+   padding: 10px;
+   display: inline;
+   position: relative;
+}
+section{
+   height: 100vh;
+}
+.act{
+   font-family: 'M PLUS 1', sans-serif;
+   color: black;
+   text-decoration: underline;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+.myul li a::after{
+   content: "";
+   height: 2px;
+   width: 0%;
+   background: black;
+   position: absolute;
+   bottom: 0;
+   left: 10px;
+   transition: all linear 0.5s;
+}
+.myul li a:hover::after{
+   width: 80%;
+}
+.content{
+   font-family: 'M PLUS 1', sans-serif;
+   text-align: center;
+   position:relative;
+   top: 120px;
+}
+.content h1{
+   font-size: 40px;
+}
+.content button{
+   margin-top: 450px;
+   border: none;
+   border-radius: 2px;
+   padding: 10px;
+   font-family: 'M PLUS 1', sans-serif;
+   cursor: pointer;
+   width: 200px;
+}
+.content .custom{
+   margin-right: 15px;
+   background-color: rgb(55, 55, 55);
+   color: white;
+}
+.content .existing{
+   margin-left: 5px;
+   background-color: white;
+   color: rgb(83, 83, 83);
+}
+a{
+   cursor: pointer;
+}
+@media screen and (max-width:600px) and (min-width:400px){
+   .myul{
+      display: none;
+   }
+   .content h1{
+      font-size: 20px;
+      position: relative;
+      bottom: 40px;
+   }
+   .content p{
+      font-size: 15px;
+      position: relative;
+      bottom: 30px;
+   }
+   button{
+      position: relative;
+      top: 145px;
+      /*bottom: 300px;*/
+      margin-top: 0px;
+      margin-right: 7px;
+   }
+   .menu{
+      position: relative;
+      left: 350px;
+      bottom: 35px;
+   }
+   .content .existing{
+      position: relative;
+      top: -297px;
+      right: 7px;
+   }
+  
+}
+@media screen and (max-width:1500px){
+   .content .existing{
+      position: relative;
+     /* top:  0px;
+      right: 0px;
+   */}
+}

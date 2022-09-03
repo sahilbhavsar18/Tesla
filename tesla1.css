@@ -114,8 +114,8 @@ a{
    }
    button{
       position: relative;
-      top: 520px;
-      /*bottom: 300px;*/
+      /*top: 520px;
+      */bottom: 300px;
       margin-top: 0px;
       margin-right: 6px;
    }
@@ -123,6 +123,9 @@ a{
       position: relative;
       left: 350px;
       bottom: 35px;
+   }
+   .content .custom{
+      margin-top: 150px;
    }
    .content .existing{
       position: relative;
